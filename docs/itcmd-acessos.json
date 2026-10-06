@@ -4,141 +4,905 @@
     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
     "status": 200,
     "bytes": 1332449,
-    "finalUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm"
+    "finalUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "AC",
     "url": "https://sefaz.ac.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "AL",
     "url": "https://www.sefaz.al.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "AP",
     "url": "https://www.sefaz.ap.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "AM",
     "url": "https://www.sefaz.am.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "BA",
     "url": "https://www.sefaz.ba.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "CE",
     "url": "https://www.sefaz.ce.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "DF",
     "url": "https://www.receita.fazenda.df.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "ES",
     "url": "https://sefaz.es.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "GO",
     "url": "https://goias.gov.br/economia/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "MA",
     "url": "https://portal.sefaz.ma.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "MT",
     "url": "https://www.sefaz.mt.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "MS",
     "url": "https://www.sefaz.ms.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "MG",
     "url": "https://www.fazenda.mg.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "PA",
     "url": "https://www.sefa.pa.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "PB",
     "url": "https://www.sefaz.pb.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "PR",
     "url": "https://www.fazenda.pr.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "PE",
     "url": "https://www.sefaz.pe.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "PI",
     "url": "https://www.sefaz.pi.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "RJ",
     "url": "https://portal.fazenda.rj.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "RN",
     "url": "https://www.sefaz.rn.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "RS",
     "url": "https://www.receita.fazenda.rs.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "RO",
     "url": "https://www.sefin.ro.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "RR",
     "url": "https://www.sefaz.rr.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "SC",
     "url": "https://www.sef.sc.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "SP",
     "url": "https://portal.fazenda.sp.gov.br/servicos/itcmd/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "SE",
     "url": "https://www.sefaz.se.gov.br/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
   },
   {
     "uf": "TO",
     "url": "https://www.to.gov.br/sefaz/",
-    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "initial",
+    "attemptedOn": "2026-10-06"
+  },
+  {
+    "uf": "planalto",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
+    "status": 200,
+    "bytes": 1334008,
+    "finalUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "AC",
+    "url": "https://sefaz.ac.gov.br/",
+    "status": 200,
+    "bytes": 120070,
+    "finalUrl": "https://sefaz.ac.gov.br/2021/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "AL",
+    "url": "https://www.sefaz.al.gov.br/",
+    "status": 200,
+    "bytes": 75010,
+    "finalUrl": "https://www.sefaz.al.gov.br/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "AP",
+    "url": "https://www.sefaz.ap.gov.br/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "AM",
+    "url": "https://www.sefaz.am.gov.br/",
+    "status": 200,
+    "bytes": 928708,
+    "finalUrl": "https://www.sefaz.am.gov.br/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "BA",
+    "url": "https://www.sefaz.ba.gov.br/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "CE",
+    "url": "https://www.sefaz.ce.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "DF",
+    "url": "https://www.receita.fazenda.df.gov.br/",
+    "status": 200,
+    "bytes": 74793,
+    "finalUrl": "https://www.receita.fazenda.df.gov.br/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "ES",
+    "url": "https://sefaz.es.gov.br/",
+    "status": 200,
+    "bytes": 324100,
+    "finalUrl": "https://sefaz.es.gov.br/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "GO",
+    "url": "https://goias.gov.br/economia/",
+    "status": 200,
+    "bytes": 241922,
+    "finalUrl": "https://goias.gov.br/economia/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "MA",
+    "url": "https://portal.sefaz.ma.gov.br/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "MT",
+    "url": "https://www.sefaz.mt.gov.br/",
+    "error": "HTTP Error 403: Forbidden",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "MS",
+    "url": "https://www.sefaz.ms.gov.br/",
+    "status": 200,
+    "bytes": 266495,
+    "finalUrl": "https://www.sefaz.ms.gov.br/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "MG",
+    "url": "https://www.fazenda.mg.gov.br/",
+    "status": 200,
+    "bytes": 27539,
+    "finalUrl": "https://www.fazenda.mg.gov.br/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "PA",
+    "url": "https://www.sefa.pa.gov.br/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "PB",
+    "url": "https://www.sefaz.pb.gov.br/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "PR",
+    "url": "https://www.fazenda.pr.gov.br/",
+    "status": 200,
+    "bytes": 21584,
+    "finalUrl": "http://www.fazenda.pr.gov.br/virada.php",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "PE",
+    "url": "https://www.sefaz.pe.gov.br/",
+    "status": 200,
+    "bytes": 659550,
+    "finalUrl": "https://www.sefaz.pe.gov.br/SitePages/Home.aspx",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "PI",
+    "url": "https://www.sefaz.pi.gov.br/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "RJ",
+    "url": "https://portal.fazenda.rj.gov.br/",
+    "status": 200,
+    "bytes": 1605,
+    "finalUrl": "https://portal.fazenda.rj.gov.br/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": "HTTP 200 é página de bloqueio de IP, não fonte tributária."
+  },
+  {
+    "uf": "RN",
+    "url": "https://www.sefaz.rn.gov.br/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "RS",
+    "url": "https://www.receita.fazenda.rs.gov.br/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "RO",
+    "url": "https://www.sefin.ro.gov.br/",
+    "status": 200,
+    "bytes": 212444,
+    "finalUrl": "https://www.sefin.ro.gov.br/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "RR",
+    "url": "https://www.sefaz.rr.gov.br/",
+    "status": 200,
+    "bytes": 37836,
+    "finalUrl": "https://www.sefaz.rr.gov.br/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "SC",
+    "url": "https://www.sef.sc.gov.br/",
+    "status": 200,
+    "bytes": 268330,
+    "finalUrl": "https://www.sef.sc.gov.br/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "SP",
+    "url": "https://portal.fazenda.sp.gov.br/servicos/itcmd/",
+    "status": 200,
+    "bytes": 103039,
+    "finalUrl": "https://portal.fazenda.sp.gov.br/servicos/itcmd/",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "SE",
+    "url": "https://www.sefaz.se.gov.br/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "uf": "TO",
+    "url": "https://www.to.gov.br/sefaz/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "retry",
+    "attemptedOn": "2026-10-06",
+    "contentWarning": ""
+  },
+  {
+    "id": "AC-itcmd",
+    "url": "https://sefaz.ac.gov.br/2021/?page_id=17032",
+    "status": 200,
+    "bytes": 130520,
+    "finalUrl": "https://sefaz.ac.gov.br/2021/?page_id=17032",
+    "contentType": "text/html; charset=UTF-8",
+    "phase": "deep-research-1",
+    "attemptedOn": "2026-10-06",
+    "sha256": "29b54245819908fb27ea417c3214e06881f7f52e1b98a319dc31c617abba9a2b"
+  },
+  {
+    "id": "AL-itcd",
+    "url": "https://www.sefaz.al.gov.br/itcd",
+    "status": 200,
+    "bytes": 51369,
+    "finalUrl": "https://www.sefaz.al.gov.br/itcd",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-1",
+    "attemptedOn": "2026-10-06",
+    "sha256": "ca599b4cfe33e28cdfcfdbebc7399d513de9d5e9eb108638c8b2d0a467ba81fd"
+  },
+  {
+    "id": "ES-leg",
+    "url": "https://sefaz.es.gov.br/legislacao-destaque",
+    "status": 200,
+    "bytes": 608962,
+    "finalUrl": "https://sefaz.es.gov.br/legislacao-destaque",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-1",
+    "attemptedOn": "2026-10-06",
+    "sha256": "4d87da8fdbbb52ea03efef3fa6e5ec233172611a876ac8dbb36498084db613b7"
+  },
+  {
+    "id": "GO-itcd",
+    "url": "https://goias.gov.br/economia/itcd/",
+    "status": 200,
+    "bytes": 195818,
+    "finalUrl": "https://goias.gov.br/economia/itcd/",
+    "contentType": "text/html; charset=UTF-8",
+    "phase": "deep-research-1",
+    "attemptedOn": "2026-10-06",
+    "sha256": "aa6336591a290ba01c276e764e07d7a91fd576ac6b6f8b992e0222e35087a855"
+  },
+  {
+    "id": "MS-itcd",
+    "url": "https://www.sefaz.ms.gov.br/itcd/",
+    "status": 200,
+    "bytes": 291226,
+    "finalUrl": "https://www.sefaz.ms.gov.br/itcd/",
+    "contentType": "text/html; charset=UTF-8",
+    "phase": "deep-research-1",
+    "attemptedOn": "2026-10-06",
+    "sha256": "14807c54ec02b216d78d99712074c4b900fbd01639c884167ea52f27679e620c"
+  },
+  {
+    "id": "MG-itcd",
+    "url": "https://www.fazenda.mg.gov.br/empresas/impostos/itcd/",
+    "status": 200,
+    "bytes": 29555,
+    "finalUrl": "https://www.fazenda.mg.gov.br/empresas/impostos/itcd/",
+    "contentType": "text/html;charset=UTF-8",
+    "phase": "deep-research-1",
+    "attemptedOn": "2026-10-06",
+    "sha256": "cd3c5240477dc8744e5edd94407b4d24c5ee0d4b3de3df7379267258a94b6b66"
+  },
+  {
+    "id": "PE-itcmd",
+    "url": "https://www.sefaz.pe.gov.br/Servicos/ICD",
+    "status": 200,
+    "bytes": 709103,
+    "finalUrl": "https://www.sefaz.pe.gov.br/Servicos/ICD/Paginas/Apresentacao.aspx",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-1",
+    "attemptedOn": "2026-10-06",
+    "sha256": "445560b459bad7e50688783a806aea71825ea9f828b597ec4382c82ffcb78e4d"
+  },
+  {
+    "id": "PE-leg",
+    "url": "https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Consolidada-Por-Assunto/Paginas/ICD.aspx",
+    "status": 200,
+    "bytes": 698549,
+    "finalUrl": "https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Consolidada-Por-Assunto/Paginas/ICD.aspx",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-1",
+    "attemptedOn": "2026-10-06",
+    "sha256": "205874ba31fb60f32bb376537be9f30dc81f84e3263ae61a2c2edc1f7b013be4"
+  },
+  {
+    "id": "SP-faq",
+    "url": "https://portal.fazenda.sp.gov.br/servicos/itcmd/Paginas/perguntas-frequentes.aspx",
+    "status": 200,
+    "bytes": 98720,
+    "finalUrl": "https://portal.fazenda.sp.gov.br/servicos/itcmd/Paginas/perguntas-frequentes.aspx",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-1",
+    "attemptedOn": "2026-10-06",
+    "sha256": "6b37c2dd85b4e6af85a32530be74d5438c2c921294b088c3b01b879be6a70c61"
+  },
+  {
+    "id": "SP-leg",
+    "url": "https://portal.fazenda.sp.gov.br/servicos/itcmd/Paginas/Legislacao.aspx",
+    "status": 200,
+    "bytes": 96310,
+    "finalUrl": "https://portal.fazenda.sp.gov.br/servicos/itcmd/Paginas/Legislacao.aspx",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-1",
+    "attemptedOn": "2026-10-06",
+    "sha256": "85e7dfdadd6f7579a3168a9618a5869ed8cc766051ee96c187543c85d481a110"
+  },
+  {
+    "id": "AC-373",
+    "url": "https://sefaz.ac.gov.br/2021/?p=5118",
+    "status": 200,
+    "bytes": 161387,
+    "finalUrl": "https://sefaz.ac.gov.br/2021/?p=5118",
+    "contentType": "text/html; charset=UTF-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "1229e327c09a2e3ca20771a9e14f8b059ea4716c0ab90ae1ef8810482acdb192"
+  },
+  {
+    "id": "AC-105",
+    "url": "https://sefaz.ac.gov.br/2021/?p=23486",
+    "status": 200,
+    "bytes": 100925,
+    "finalUrl": "https://sefaz.ac.gov.br/2021/?p=23486",
+    "contentType": "text/html; charset=UTF-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "94523379847eba31974191dbbb3821e652fa9402924568492cd70672cc601bb6"
+  },
+  {
+    "id": "AL-faq",
+    "url": "https://www.sefaz.al.gov.br/itcd/itcd-faq",
+    "status": 200,
+    "bytes": 67453,
+    "finalUrl": "https://www.sefaz.al.gov.br/itcd/itcd-faq",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "44a57f4b213b26a1b405a28aa4941066fd44b7d209efbc933d76887eafcda6ce"
+  },
+  {
+    "id": "AL-leg",
+    "url": "https://www.sefaz.al.gov.br/itcd/itcd-legislacao",
+    "status": 200,
+    "bytes": 52748,
+    "finalUrl": "https://www.sefaz.al.gov.br/itcd/itcd-legislacao",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "e81f68ce46fbde3c257a5bc920f7a777133afa1526a4068d4777b8733f87aff4"
+  },
+  {
+    "id": "GO-faq",
+    "url": "https://goias.gov.br/economia/perguntas-e-respostas-11/",
+    "status": 200,
+    "bytes": 253970,
+    "finalUrl": "https://goias.gov.br/economia/perguntas-e-respostas-11/",
+    "contentType": "text/html; charset=UTF-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "574f1029ce9c841d39f5a8c2d18880e7b3ea81e3a27835e7a7606e5372b7c92c"
+  },
+  {
+    "id": "MG-orient",
+    "url": "https://www.fazenda.mg.gov.br/empresas/impostos/itcd/orientacoes-gerais",
+    "status": 200,
+    "bytes": 103361,
+    "finalUrl": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/orientacao/orientacao_002_2006.html",
+    "contentType": "text/html;charset=UTF-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "a4a542af1e3383dca4b5299565ab81955145edd781d1135cbf7f1b0324246b18"
+  },
+  {
+    "id": "MG-faq",
+    "url": "https://www.fazenda.mg.gov.br/empresas/impostos/itcd/duvidas-frequentes",
+    "status": 200,
+    "bytes": 103361,
+    "finalUrl": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/orientacao/orientacao_002_2006.html",
+    "contentType": "text/html;charset=UTF-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "a4a542af1e3383dca4b5299565ab81955145edd781d1135cbf7f1b0324246b18"
+  },
+  {
+    "id": "MG-leg",
+    "url": "https://www.fazenda.mg.gov.br/empresas/impostos/itcd/legislacao-estadual",
+    "status": 200,
+    "bytes": 21790,
+    "finalUrl": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/itcd/",
+    "contentType": "text/html;charset=UTF-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "8e3d10c52529493a5eed70783485f07cc849ecdf5752ab23c878f308c20a76fd"
+  },
+  {
+    "id": "PE-faq",
+    "url": "https://www.sefaz.pe.gov.br/Servicos/ICD/Paginas/Perguntas-e-Respostas.aspx",
+    "status": 200,
+    "bytes": 747412,
+    "finalUrl": "https://www.sefaz.pe.gov.br/Servicos/ICD/Paginas/Perguntas-e-Respostas.aspx",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "cf536dd367301e9bf4df2fb53249376f6169be4fb8da7f44a63ab04f138514b0"
+  },
+  {
+    "id": "PE-13974",
+    "url": "https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Documents/Legislacao/Leis_Tributarias/2009/Lei13974_2009.htm",
+    "status": 200,
+    "bytes": 232670,
+    "finalUrl": "https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Documents/Legislacao/Leis_Tributarias/2009/Lei13974_2009.htm",
+    "contentType": "text/html",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "3b48d236ddade4fe90fe828e44ffe963adfbf154cc58d24f54a017d372b5aa39"
+  },
+  {
+    "id": "PE-60078",
+    "url": "https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Documents/Legislacao/Decretos/2025/Dec60078_2025.htm",
+    "status": 200,
+    "bytes": 56738,
+    "finalUrl": "https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Documents/Legislacao/Decretos/2025/Dec60078_2025.htm",
+    "contentType": "text/html",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "9d8221f2ec631b4ccce09995f4ad8144e4d30a1c3687feb77715d1eeb35b3098"
+  },
+  {
+    "id": "SP-faqscript",
+    "url": "https://portal.fazenda.sp.gov.br/BibliotecaDeScripts/pluginPerguntasFrequentesHome360.js",
+    "status": 200,
+    "bytes": 4897,
+    "finalUrl": "https://portal.fazenda.sp.gov.br/BibliotecaDeScripts/pluginPerguntasFrequentesHome360.js",
+    "contentType": "application/javascript",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "912530a8af2a7708a87c3cc4a89ff9f19bda0995018df813a19e59b6c9d9615a"
+  },
+  {
+    "id": "SP-legscript",
+    "url": "https://portal.fazenda.sp.gov.br/BibliotecaDeScripts/pluginLegislacaoHome360.js",
+    "status": 200,
+    "bytes": 4505,
+    "finalUrl": "https://portal.fazenda.sp.gov.br/BibliotecaDeScripts/pluginLegislacaoHome360.js",
+    "contentType": "application/javascript",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "0b17da9d3c141de74e01bac140bd3927f6cbf4b08188527e6f63d9dff7c68115"
+  },
+  {
+    "id": "DF-list",
+    "url": "https://www.receita.fazenda.df.gov.br/aplicacoes/CartaServicos/script/listaCategorias.js",
+    "status": 200,
+    "bytes": 893,
+    "finalUrl": "https://www.receita.fazenda.df.gov.br/aplicacoes/CartaServicos/script/listaCategorias.js",
+    "contentType": "application/javascript",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "13ec301d7ef92de2a7d49bdf0bdd2b84ce8677a23e95b5cc7e0b50c667ce49d8"
+  },
+  {
+    "id": "AM-leg",
+    "url": "https://www.sefaz.am.gov.br/portfolio-servicos/pessoa-fisica?query=Legisla%C3%A7%C3%A3o%20Tribut%C3%A1ria",
+    "status": 200,
+    "bytes": 472461,
+    "finalUrl": "https://www.sefaz.am.gov.br/portfolio-servicos/pessoa-fisica?query=Legisla%C3%A7%C3%A3o%20Tribut%C3%A1ria",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "e0a1dc70c4fef38c3de74c45417934758e8ff5276c3c1d5b7506c03bf4704e3c"
+  },
+  {
+    "id": "RR-leg",
+    "url": "https://www.sefaz.rr.gov.br/downloads/legislacao",
+    "status": 200,
+    "bytes": 44376,
+    "finalUrl": "https://www.sefaz.rr.gov.br/downloads/legislacao",
+    "contentType": "text/html; charset=UTF-8",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06",
+    "sha256": "df87cb2031652ae93ffcb4233de870196023ed13916340b2f7b3637c03b45e92"
+  },
+  {
+    "id": "SC-leg",
+    "url": "https://legislacao.sef.sc.gov.br/Consulta/Views/Publico/Inicio.aspx",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06"
+  },
+  {
+    "id": "DF-ww1",
+    "url": "https://ww1.receita.fazenda.df.gov.br/emissao-segunda-via/itbi-itcd",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06"
+  },
+  {
+    "id": "PR-itcmd",
+    "url": "https://www.contribuinte.fazenda.pr.gov.br/itcmd/faces/itcmdSobre",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06"
+  },
+  {
+    "id": "RO-itcd",
+    "url": "https://itcd.sefin.ro.gov.br/home/bem_vindo",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "phase": "deep-research-2",
+    "attemptedOn": "2026-10-06"
+  },
+  {
+    "id": "PE-563",
+    "url": "https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Documents/Legislacao/Leis_Complementares_Estadual/2025/LCE563_2025.htm",
+    "status": 200,
+    "bytes": 165123,
+    "finalUrl": "https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Documents/Legislacao/Leis_Complementares_Estadual/2025/LCE563_2025.htm",
+    "contentType": "text/html",
+    "phase": "deep-research-3",
+    "attemptedOn": "2026-10-06",
+    "sha256": "5457a6cade6ce19711cdea8fc670ccc8a236dcc689d765f103ee195fd8609e18"
+  },
+  {
+    "id": "MG-law",
+    "url": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/leis/l14941_2003.html",
+    "status": 200,
+    "bytes": 142426,
+    "finalUrl": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/leis/l14941_2003.html",
+    "contentType": "text/html;charset=ISO-8859-1",
+    "phase": "deep-research-3",
+    "attemptedOn": "2026-10-06",
+    "sha256": "693a3438cc93307ed8bb6ba5381f4b0acbb9227f3ad014a6d276144d1e2489d1"
+  },
+  {
+    "id": "MG-decree",
+    "url": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/decretos/d43981_2005.html",
+    "status": 200,
+    "bytes": 199628,
+    "finalUrl": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/decretos/d43981_2005.html",
+    "contentType": "text/html;charset=ISO-8859-1",
+    "phase": "deep-research-3",
+    "attemptedOn": "2026-10-06",
+    "sha256": "016379f21020615a18f0e1b8495e312446bfa8560b9769ba8ad9b0539637d985"
+  },
+  {
+    "id": "ES-law",
+    "url": "https://sefaz.es.gov.br/media/Receita%20Estadual/Legislacao/Lei%2010.011%20atualizada.pdf",
+    "status": 200,
+    "bytes": 163071,
+    "finalUrl": "https://sefaz.es.gov.br/media/Receita%20Estadual/Legislacao/Lei%2010.011%20atualizada.pdf",
+    "contentType": "application/pdf",
+    "phase": "deep-research-3",
+    "attemptedOn": "2026-10-06",
+    "sha256": "bb7a3a8cbe2f283907d4dff4da012f891311842518e83ce64c8dbefd4b85269b"
+  },
+  {
+    "id": "DF-categories",
+    "url": "https://www.receita.fazenda.df.gov.br/aplicacoes/CartaServicos/listaCategorias_div.cfm?codTipoPessoa=1",
+    "status": 200,
+    "bytes": 70078,
+    "finalUrl": "https://www.receita.fazenda.df.gov.br/aplicacoes/CartaServicos/listaCategorias_div.cfm?codTipoPessoa=1",
+    "contentType": "text/html;charset=UTF-8",
+    "phase": "deep-research-3",
+    "attemptedOn": "2026-10-06",
+    "sha256": "422a5dd7394491f7b65f2d2f8379adb49378e512ec04d96243d63040e8a80e5f"
+  },
+  {
+    "id": "SP-api",
+    "url": "https://portal.fazenda.sp.gov.br/servicos/itcmd/_api/web/lists/getByTitle%28%27Perguntas%20Frequentes%27%29/items?%24select=Id%2CTitle%2CResposta%2CAssunto&%24top=1000",
+    "status": 200,
+    "bytes": 174211,
+    "finalUrl": "https://portal.fazenda.sp.gov.br/servicos/itcmd/_api/web/lists/getByTitle%28%27Perguntas%20Frequentes%27%29/items?%24select=Id%2CTitle%2CResposta%2CAssunto&%24top=1000",
+    "contentType": "application/atom+xml;type=feed;charset=utf-8",
+    "phase": "deep-research-3",
+    "attemptedOn": "2026-10-06",
+    "sha256": "ac55ab0f8732131862fe208ff64e523e3e4cc644d89eef3e9b71b23ceac65349"
+  },
+  {
+    "id": "RR-code",
+    "url": "https://www.sefaz.rr.gov.br/downloads/legislacao?dir=14%20-%20LEI%20COMPLEMENTAR%20N%20008-94%20E%20SUAS%20ALTERA%20ES",
+    "status": 200,
+    "bytes": 35789,
+    "finalUrl": "https://www.sefaz.rr.gov.br/downloads/legislacao?dir=14%20-%20LEI%20COMPLEMENTAR%20N%20008-94%20E%20SUAS%20ALTERA%20ES",
+    "contentType": "text/html; charset=UTF-8",
+    "phase": "deep-research-4",
+    "attemptedOn": "2026-10-06",
+    "sha256": "cf8a204586fc8694b8d5e20c718a0ba8c40ba04f9f108ff51b1bbb9d0b867bdb"
+  },
+  {
+    "id": "AM-itcmd",
+    "url": "https://www.sefaz.am.gov.br/portfolio-servicos/pessoa-fisica?query=ITCMD",
+    "status": 200,
+    "bytes": 508052,
+    "finalUrl": "https://www.sefaz.am.gov.br/portfolio-servicos/pessoa-fisica?query=ITCMD",
+    "contentType": "text/html; charset=utf-8",
+    "phase": "deep-research-4",
+    "attemptedOn": "2026-10-06",
+    "sha256": "076b203b5712f41428eff55f48834a638092bd0a68e636905558cb0fa72995eb"
+  },
+  {
+    "id": "BA-deep",
+    "url": "https://www.sefaz.ba.gov.br/administracao/tributacao/itd.htm",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "deep-research-4",
+    "attemptedOn": "2026-10-06"
+  },
+  {
+    "id": "PA-deep",
+    "url": "https://www.sefa.pa.gov.br/index.php/receitas-estaduais/itcd",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "deep-research-4",
+    "attemptedOn": "2026-10-06"
+  },
+  {
+    "id": "PB-deep",
+    "url": "https://www.sefaz.pb.gov.br/legislacao/64-leis/itcd",
+    "error": "HTTP Error 503: Service Unavailable",
+    "phase": "deep-research-4",
+    "attemptedOn": "2026-10-06"
+  },
+  {
+    "id": "MT-faq",
+    "url": "https://www.sefaz.mt.gov.br/portal/Tributario/ITCD/InformacoesGerais.php",
+    "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+    "phase": "deep-research-4",
+    "attemptedOn": "2026-10-06"
+  },
+  {
+    "id": "DF-itcd",
+    "url": "https://www.receita.fazenda.df.gov.br/aplicacoes/CartaServicos/listaSubCategorias.cfm?codCategoriaServico=14&codTipoPessoa=6",
+    "status": 200,
+    "bytes": 228544,
+    "finalUrl": "https://www.receita.fazenda.df.gov.br/aplicacoes/CartaServicos/listaSubCategorias.cfm?codCategoriaServico=14&codTipoPessoa=6",
+    "contentType": "text/html;charset=UTF-8",
+    "phase": "deep-research-5",
+    "attemptedOn": "2026-10-06",
+    "sha256": "81aa65553dcf8e04ac51c59ebe9fc12f00573a9680de451a3e93b14df3a79a9b"
+  },
+  {
+    "id": "SP-leg-api",
+    "url": "https://portal.fazenda.sp.gov.br/servicos/itcmd/_api/web/lists/getByTitle%28%27Legisla%C3%A7%C3%A3o%27%29/items?%24select=Id%2CTitle%2CLinkLegislacao%2CDescricaoLegislacao%2CTipoLegislacao&%24top=1000",
+    "status": 200,
+    "bytes": 22398,
+    "finalUrl": "https://portal.fazenda.sp.gov.br/servicos/itcmd/_api/web/lists/getByTitle%28%27Legisla%C3%A7%C3%A3o%27%29/items?%24select=Id%2CTitle%2CLinkLegislacao%2CDescricaoLegislacao%2CTipoLegislacao&%24top=1000",
+    "contentType": "application/atom+xml;type=feed;charset=utf-8",
+    "phase": "deep-research-5",
+    "attemptedOn": "2026-10-06",
+    "sha256": "d6a25ec82c9ab1d6f8d4cf5bf91db86154a6e69c39a8434d9fd78c34ed43d34c"
   }
 ]

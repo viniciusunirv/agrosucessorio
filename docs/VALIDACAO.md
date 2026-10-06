@@ -18,7 +18,7 @@ Cobertura:
 
 Capturas desktop e celular foram inspecionadas visualmente. Não é auditoria completa de acessibilidade, compatibilidade com todos os navegadores ou certificação de conformidade.
 
-Não executados ou concluídos: validação jurídica/contábil, consulta das fontes oficiais bloqueadas, cálculo tributário (nenhum implementado), teste em dispositivos físicos, Safari/Firefox, conferência das condições atuais da hospedagem, publicação e verificação dos cabeçalhos no provedor. O servidor local de Python não aplica `_headers`; sua aplicação depende da hospedagem.
+Não executados ou concluídos: validação jurídica/contábil, consulta das fontes oficiais bloqueadas, validação de cálculo tributário real (motor matemático implementado, sem regras reais habilitadas), teste em dispositivos físicos, Safari/Firefox, conferência das condições atuais da hospedagem, publicação e verificação dos cabeçalhos no provedor. O servidor local de Python não aplica `_headers`; sua aplicação depende da hospedagem.
 
 As instruções e permissões de rede foram salvas como rascunho do ambiente. Isso não publica o site nem comprova restauração do ambiente em nova tarefa.
 
@@ -29,3 +29,9 @@ O build passou a gerar `app.bundle.js`, script clássico sem imports, e `dist/in
 ## Atualização do preparador de simulação de ITCMD
 
 A versão atual passou em 30 testes (15 por configuração desktop/celular). Inclui valores em centavos, limites de faixas fictícias, arredondamento, agregação por UF/beneficiário, dados inválidos, conflitos de competência, fontes ausentes, revisão vencida, exceções não verificadas, edição de valores com invalidação do resultado anterior, cadastro das 27 UFs, formulário nas cinco opções pertinentes e apagamento dos valores. Os exemplos matemáticos de teste são fictícios e não representam alíquotas estaduais. Os formulários reais retornam informação insuficiente, não imposto zero, em todas as UFs. A fonte federal foi consultada; as 27 fontes estaduais/distrital ficaram bloqueadas pela rede. Nenhuma validação jurídica/contábil ou estimativa real foi executada.
+
+## Retomada estadual
+
+Sete UFs têm observações com fontes e dispositivos; vinte sem percentuais confirmados. Revisão profissional e cálculos reais continuam pendentes. A bateria técnica verifica que uma observação de pesquisa não habilita estimativa, que PE exibe o marco de 2026 e que SP/DF mantêm suas lacunas explícitas. O registro anterior de 27 bloqueios de rede é histórico.
+
+Nesta atualização, `npm run check` e `npm run build` passaram; `npm test` terminou com **30 testes aprovados** em desktop/celular. O ZIP foi regenerado sem compressão/Zip64 e sua integridade e conteúdo foram conferidos.

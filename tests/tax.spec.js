@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-import {itcmdStates,instrumentScenarios} from '../data/itcmd.js';
+import {itcmdStates,instrumentScenarios,itcmdResearch} from '../data/itcmd.js';
 import {parseMoney,calculateSchedule,simulateITCMD} from '../data/tax-engine.js';
 const today='2026-10-06';
 const input={instrument:'doacao',operation:'donation',asset:'property',country:'brasil',extent:'full',special:'ordinary',date:today,locationMode:'one',rows:[{uf:'SP',beneficiary:'1',amount:'1.500,00'}]};
@@ -8,7 +8,7 @@ const input={instrument:'doacao',operation:'donation',asset:'property',country:'
 const fixture=()=>[{uf:'SP',name:'UF fictícia de teste',sourceVerified:true,consultedOn:today,versions:[{operation:'donation',assets:['property'],validFrom:'2026-01-01',validTo:'2026-12-31',scenarioProfile:'ordinary-full-ownership',exemptionsReviewed:true,exemption:{type:'none'},schedule:{method:'marginal',rounding:'per-band-half-up',bands:[{upToCents:100000,rateBps:200},{upToCents:null,rateBps:400}]},review:{status:'approved',by:'REVISOR FICTÍCIO — TESTE',on:today,expiresOn:'2026-12-31'},sources:[{url:'https://example.invalid/fixture',provision:'EXEMPLO MATEMÁTICO — SEM VALOR NORMATIVO',consultedOn:today}]}]}];
 test('cadastro inclui todas as 27 UFs sem inventar alíquotas ou revisões',()=>{
  expect(itcmdStates).toHaveLength(27);expect(new Set(itcmdStates.map(s=>s.uf)).size).toBe(27);expect(itcmdStates.find(s=>s.uf==='DF')).toBeTruthy();
- for(const s of itcmdStates){expect(s.sourceVerified).toBe(false);expect(s.versions).toEqual([]);expect(s.professionalReview).toBeNull();const r=simulateITCMD({...input,rows:[{uf:s.uf,beneficiary:'1',amount:'500.000,00'}]},itcmdStates,today);expect(r.status).toBe('blocked');expect(r.taxCents).toBeNull();expect(r.results).toEqual([]);expect(r.issues.join(' ')).toContain(s.uf);}
+ for(const s of itcmdStates){expect(s.sourceVerified).toBe(false);expect(s.versions).toEqual([]);expect(s.professionalReview).toBeNull();if(s.observation){expect(s.consultedOn).toBe(today);expect(s.observation.sources.length).toBeGreaterThan(0);for(const f of s.observation.sources){expect(f.url).toMatch(/^https:\/\//);expect(f.provision).toBeTruthy();}}const r=simulateITCMD({...input,rows:[{uf:s.uf,beneficiary:'1',amount:'500.000,00'}]},itcmdStates,today);expect(r.status).toBe('blocked');expect(r.taxCents).toBeNull();expect(r.results).toEqual([]);expect(r.issues.join(' ')).toContain(s.uf);}
 });
 test('valores em reais, centavos e entradas inválidas',()=>{
  expect(parseMoney('500.000,00')).toBe(50000000);expect(parseMoney('R$ 1.234,5')).toBe(123450);expect(parseMoney('1.000')).toBe(100000);expect(parseMoney('1234.56')).toBe(123456);expect(parseMoney('0,01')).toBe(1);
@@ -58,5 +58,8 @@ test('UF de domicílio para quotas, outras opções, privacidade e matriz',async
  await page.locator('#sim-amount-0').fill('1.234,56');await page.getByRole('button',{name:'Apagar minhas respostas',exact:true}).click();await page.goto('/#opcao/holding/custos');await expect(page.locator('#sim-amount-0')).toHaveValue('');
  for(const id of ['governanca','liquidez']){await page.goto(`/#opcao/${id}/custos`);await expect(page.locator('#tax-form')).toHaveCount(0);await expect(page.getByRole('heading',{name:'Este tema não define um imposto por si só'})).toBeVisible();}
  await page.goto('/#aliquotas');await expect(page.locator('tbody tr')).toHaveCount(27);await expect(page.getByRole('heading',{name:'Nenhuma alíquota estadual está habilitada'})).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ const pe=page.locator('tbody tr').filter({has:page.getByRole('rowheader',{name:'Pernambuco (PE)',exact:true})});await expect(pe).toContainText('01/01/2026');await expect(pe).toContainText('R$ 80 mil');await expect(pe.getByRole('link',{name:/LC 563/})).toBeVisible();
+ const sp=page.locator('tbody tr').filter({has:page.getByRole('rowheader',{name:'São Paulo (SP)',exact:true})});await expect(sp).toContainText('Ainda sem percentual confirmado');
+ const df=page.locator('tbody tr').filter({has:page.getByRole('rowheader',{name:'Distrito Federal (DF)',exact:true})});await expect(df).toContainText('Percentuais e faixas pendentes');
  await page.goto('/#opcao/doacao/custos');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });

@@ -71,7 +71,7 @@ export function simulateITCMD(input,registry=itcmdStates,today=currentTaxDate())
  const prepared=[];
  for(const group of groups.values()){
   const record=registry.find(s=>s.uf===group.uf);
-  if(!record.sourceVerified||!record.consultedOn||record.consultedOn>today){issues.push(`${record.name} (${record.uf}): alíquotas, faixas, isenções e vigência não verificadas em fonte oficial.`);continue;}
+  if(!record.sourceVerified||!record.consultedOn||record.consultedOn>today){issues.push(`${record.name} (${record.uf}): ${record.observation?'há percentuais observados em fonte oficial, mas faltam regras completas e revisão profissional para calcular.':'alíquotas, faixas, isenções e vigência não verificadas em fonte oficial.'}`);continue;}
   const versions=(record.versions||[]).filter(v=>v.operation===input.operation&&v.assets?.includes(input.asset)&&validDate(v.validFrom)&&(!v.validTo||validDate(v.validTo))&&v.validFrom<=input.date&&(!v.validTo||input.date<=v.validTo));
   if(versions.length!==1){issues.push(`${record.uf}: não há uma versão única verificada para a operação, bem e data informados.`);continue;}
   const rule=versions[0];

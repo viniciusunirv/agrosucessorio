@@ -51,3 +51,7 @@ O banner de pendência é obrigatório nesta versão. Não o retire apenas por p
 ## Atualização: pesquisa do simulador de ITCMD
 
 Em nova tentativa em 06/10/2026, o Planalto respondeu HTTP 200 e foi consultado o Livro II da LC 227/2026 e seu art. 182. O bloqueio inicial permanece como registro histórico. Todos os 27 portais estaduais/distrital consultados nesta fase retornaram 403 do proxy. Consulte `docs/ITCMD.md`, `docs/itcmd-acessos.json` e `docs/itcmd-estados.csv`. A matriz em `data/content.js` foi atualizada somente para LC 227/2026; as demais normas não foram presumidas verificadas.
+
+## Retomada de pesquisa estadual
+
+A rodada inicial de bloqueios foi superada parcialmente. Em 06/10/2026 foram consultadas fontes com percentuais em AC, AL, ES, GO, MG, PE e SP; cobertura de SP limitada à doação em dinheiro na FAQ. Os outros vinte registros não têm percentuais confirmados. Isso não valida os demais conteúdos nem habilita cálculo. A situação atual e as fontes estão em `ITCMD.md`, `itcmd-observacoes.json` e na tabela pública `#aliquotas`. Os bloqueios anteriores descritos acima são históricos.

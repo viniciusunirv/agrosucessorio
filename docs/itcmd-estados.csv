@@ -1,28 +1,28 @@
-﻿"uf";"name";"portal";"attemptedOn";"consultedOn";"sourceVerified";"doacao";"causa_mortis";"faixas";"isencoes";"vigencia";"revisao"
-"AC";"Acre";"https://sefaz.ac.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"AL";"Alagoas";"https://www.sefaz.al.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"AP";"Amapá";"https://www.sefaz.ap.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"AM";"Amazonas";"https://www.sefaz.am.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"BA";"Bahia";"https://www.sefaz.ba.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"CE";"Ceará";"https://www.sefaz.ce.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"DF";"Distrito Federal";"https://www.receita.fazenda.df.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"ES";"Espírito Santo";"https://sefaz.es.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"GO";"Goiás";"https://goias.gov.br/economia/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"MA";"Maranhão";"https://portal.sefaz.ma.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"MT";"Mato Grosso";"https://www.sefaz.mt.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"MS";"Mato Grosso do Sul";"https://www.sefaz.ms.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"MG";"Minas Gerais";"https://www.fazenda.mg.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"PA";"Pará";"https://www.sefa.pa.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"PB";"Paraíba";"https://www.sefaz.pb.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"PR";"Paraná";"https://www.fazenda.pr.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"PE";"Pernambuco";"https://www.sefaz.pe.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"PI";"Piauí";"https://www.sefaz.pi.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"RJ";"Rio de Janeiro";"https://portal.fazenda.rj.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"RN";"Rio Grande do Norte";"https://www.sefaz.rn.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"RS";"Rio Grande do Sul";"https://www.receita.fazenda.rs.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"RO";"Rondônia";"https://www.sefin.ro.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"RR";"Roraima";"https://www.sefaz.rr.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"SC";"Santa Catarina";"https://www.sef.sc.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"SP";"São Paulo";"https://portal.fazenda.sp.gov.br/servicos/itcmd/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"SE";"Sergipe";"https://www.sefaz.se.gov.br/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
-"TO";"Tocantins";"https://www.to.gov.br/sefaz/";"2026-10-06";"Não verificado";"false";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado";"Não verificado"
+UF,Doacao_observada,Causa_mortis_observada,Consulta_percentuais,Revisao_profissional,Calculo_habilitado,Fonte_dispositivo
+AC,"Faixas de 2%, 4%, 6% e 8%: até R$ 25 mil; excedente até R$ 100 mil; excedente até R$ 200 mil; acima de R$ 200 mil.","Faixas de 4%, 5%, 6% e 7%; regra de 8% para colaterais.",2026-10-06,Pendente,Nao,"https://sefaz.ac.gov.br/2021/?page_id=17032 — Índice oficial de legislação | https://sefaz.ac.gov.br/2021/?p=5118 — LC 373/2020, arts. 4º, 26, 29 e 30 | https://sefaz.ac.gov.br/2021/?p=23486 — Portaria SEFAZ 105/2026, avaliação de imóveis rurais"
+AL,"2%, conforme FAQ oficial.","4% para óbitos desde 01/04/2017, conforme FAQ oficial.",2026-10-06,Pendente,Nao,https://www.sefaz.al.gov.br/itcd/itcd-faq — FAQ: Qual a alíquota do ITCD?
+AP,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.ap.gov.br/
+AM,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.am.gov.br/
+BA,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.ba.gov.br/
+CE,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.ce.gov.br/
+DF,Pendente,Pendente,,Pendente,Nao,https://www.receita.fazenda.df.gov.br/
+ES,4% no art. 12 do texto consultado.,4% no art. 12 do texto consultado.,2026-10-06,Pendente,Nao,"https://sefaz.es.gov.br/media/Receita%20Estadual/Legislacao/Lei%2010.011%20atualizada.pdf — Lei 10.011/2013, arts. 7º e 12"
+GO,"Faixas progressivas de 2%, 4%, 6% e 8%.","Mesmas faixas de 2%, 4%, 6% e 8%, conforme FAQ.",2026-10-06,Pendente,Nao,"https://goias.gov.br/economia/perguntas-e-respostas-11/ — FAQ ITCD, questões 39 a 45"
+MA,Pendente,Pendente,,Pendente,Nao,https://portal.sefaz.ma.gov.br/
+MT,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.mt.gov.br/
+MS,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.ms.gov.br/
+MG,5% desde 28/03/2008 no texto consultado.,5% desde 28/03/2008 no texto consultado.,2026-10-06,Pendente,Nao,"https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/leis/l14941_2003.html — Lei 14.941/2003, arts. 3º, 7º, 10 e 11; nota de efeitos (11) | https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/decretos/d43981_2005.html — Decreto 43.981/2005, texto consolidado"
+PA,Pendente,Pendente,,Pendente,Nao,https://www.sefa.pa.gov.br/
+PB,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.pb.gov.br/
+PR,Pendente,Pendente,,Pendente,Nao,https://www.fazenda.pr.gov.br/
+PE,"Desde 01/01/2026: isenção até R$ 80 mil; faixas de 2%, 4%, 6% e 8%.","Desde 01/01/2026: isenção até R$ 80 mil; faixas de 2%, 4%, 6% e 8%.",2026-10-06,Pendente,Nao,"https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Documents/Legislacao/Leis_Complementares_Estadual/2025/LCE563_2025.htm — LC 563/2025, arts. 20 e 27 e anexos 6 e 7; Lei 13.974/2009, Anexo 2, arts. 8º e 11, e Anexo 3 | https://www.sefaz.pe.gov.br/Servicos/ICD/Paginas/Perguntas-e-Respostas.aspx — FAQ ICD, tabela para fatos desde 01/01/2026"
+PI,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.pi.gov.br/
+RJ,Pendente,Pendente,,Pendente,Nao,https://portal.fazenda.rj.gov.br/
+RN,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.rn.gov.br/
+RS,Pendente,Pendente,,Pendente,Nao,https://www.receita.fazenda.rs.gov.br/
+RO,Pendente,Pendente,,Pendente,Nao,https://www.sefin.ro.gov.br/
+RR,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.rr.gov.br/
+SC,Pendente,Pendente,,Pendente,Nao,https://www.sef.sc.gov.br/
+SP,4% para doação em dinheiro acima do limite indicado pela FAQ.,Ainda sem percentual confirmado nesta pesquisa.,2026-10-06,Pendente,Nao,"https://portal.fazenda.sp.gov.br/servicos/itcmd/Paginas/perguntas-frequentes.aspx — FAQ: A doação feita em dinheiro está sujeita ao ITCMD? Decreto 46.655/2002, art. 6º, I, b"
+SE,Pendente,Pendente,,Pendente,Nao,https://www.sefaz.se.gov.br/
+TO,Pendente,Pendente,,Pendente,Nao,https://www.to.gov.br/sefaz/

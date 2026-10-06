@@ -2,7 +2,7 @@
 
 Site educativo estático para explorar planejamento sucessório no agronegócio brasileiro. Sem cadastro, banco de dados, cookies de análise, API de IA ou envio das respostas.
 
-**Estado da entrega:** protótipo funcional. Conteúdo, listas documentais, regras do questionário e tributação **não validados por profissionais**. A pesquisa jurídica atualizada não foi concluída. Na atualização de ITCMD, a LC 227/2026 foi consultada no Planalto; os 27 portais estaduais e distrital retornaram bloqueio de rede 403 em 06/10/2026. A matriz distingue fonte federal consultada de referências estaduais pendentes. Não publique como orientação jurídica validada.
+**Estado da entrega:** protótipo funcional. Conteúdo, listas documentais, regras do questionário e tributação **não validados por profissionais**. A pesquisa jurídica atualizada não foi concluída. Na atualização de ITCMD, a LC 227/2026 foi consultada no Planalto; a pesquisa retomada registrou percentuais observados de sete UFs (AC, AL, ES, GO, MG, PE e SP), com cobertura parcial em SP. Vinte UFs continuam sem percentuais confirmados. A tabela mostra fontes e pendências. Não publique como orientação jurídica validada.
 
 ## Baixar pelo GitHub, sem instalar ferramentas
 
@@ -82,4 +82,4 @@ Após cada atualização: revise fonte e contexto, execute os comandos acima, ge
 
 As páginas de custos de testamento, doação, sociedade patrimonial, participações e inventário têm um formulário preparatório: operação, data, tipo de bem, UF, beneficiários numerados e valores. Para imóveis considera-se a localização; para móveis e quotas, o domicílio relevante conforme a operação, sem pedir endereço. Governança e liquidez não geram cálculo por si sós.
 
-**Ainda não calcula impostos de nenhum estado:** as alíquotas oficiais não puderam ser consultadas. O motor está preparado e testado com exemplos matemáticos fictícios somente nos testes. Não há percentuais fictícios ou lembrados no cadastro público. A página `#aliquotas` mostra o estado das 27 pesquisas. Habilitar valores depende de consulta oficial, regras completas por cenário e revisão profissional identificada e vigente. Leia `docs/ITCMD.md`.
+**Ainda não calcula impostos de nenhum estado:** as regras completas por cenário e sua revisão profissional estão pendentes, embora já haja percentuais observados de sete UFs. O motor está preparado e testado com exemplos matemáticos fictícios somente nos testes. Não há percentuais fictícios ou lembrados no cadastro público. A página `#aliquotas` mostra o estado das 27 pesquisas. Habilitar valores depende de consulta oficial, regras completas por cenário e revisão profissional identificada e vigente. Leia `docs/ITCMD.md`.
