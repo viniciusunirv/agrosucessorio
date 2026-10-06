@@ -10,6 +10,10 @@ No repositório, clique em **Code → Download ZIP**. Extraia o arquivo baixado.
 
 `site-pronto.zip` é uma cópia gerada; após alterar o código, regenere `dist/` e o pacote antes de enviá-lo novamente.
 
+## Extração no Windows
+
+O pacote `site-pronto.zip` usa ZIP padrão sem compressão e sem ZIP64. Se o ZIP geral baixado do GitHub não abrir, baixe apenas `site-pronto.zip` pelo botão de download desse arquivo no repositório. Salve o download completo no computador, clique com o botão direito e escolha **Extrair Tudo**. Escolha um caminho curto, como `C:\AgroSite`, para evitar problemas de comprimento de caminhos. Se continuar falhando, registre a mensagem exata e o nome do ZIP; ainda não foi possível reproduzir esse erro em Windows.
+
 ## Executar
 
 Pré-requisitos: Node.js 24 (validado: 24.19.0), npm 11 e Python 3.12. O navegador precisa aceitar módulos JavaScript. Nenhuma chave ou conta é necessária para executar.
