@@ -47,3 +47,7 @@ EC 132/2023, LC 214/2025 e LC 227/2026 têm referências preparadas para confer�
 ## Conteúdo desatualizado
 
 O banner de pendência é obrigatório nesta versão. Não o retire apenas por preencher uma data. Antes de apresentar regras verificadas, estabeleça prazo editorial de revisão, preserve evidências e crie bloqueio de recomendações/cálculos dependentes quando a revisão vencer ou a norma mudar. O protótipo mantém a calculadora sempre desligada; nenhum preenchimento de fonte ativa cálculos automaticamente.
+
+## Atualização: pesquisa do simulador de ITCMD
+
+Em nova tentativa em 06/10/2026, o Planalto respondeu HTTP 200 e foi consultado o Livro II da LC 227/2026 e seu art. 182. O bloqueio inicial permanece como registro histórico. Todos os 27 portais estaduais/distrital consultados nesta fase retornaram 403 do proxy. Consulte `docs/ITCMD.md`, `docs/itcmd-acessos.json` e `docs/itcmd-estados.csv`. A matriz em `data/content.js` foi atualizada somente para LC 227/2026; as demais normas não foram presumidas verificadas.

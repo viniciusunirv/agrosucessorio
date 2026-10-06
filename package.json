@@ -7,7 +7,7 @@
     "dev": "python3 -m http.server 5173 --bind 0.0.0.0",
     "build": "node scripts/build.mjs",
     "test": "playwright test",
-    "check": "node --check app.js && node --check data/content.js && node --check data/questionnaire.js && node --check data/tax.js",
+    "check": "node --check app.js && node --check data/content.js && node --check data/questionnaire.js && node --check data/tax.js && node --check data/itcmd.js && node --check data/tax-engine.js && node --check data/simulator-ui.js",
     "test:local": "playwright test --config playwright.local.config.js"
   },
   "devDependencies": {

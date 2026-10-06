@@ -6,7 +6,7 @@ for (const file of ['styles.css','assets','data','_headers']) {
 }
 // Os módulos-fonte continuam separados. O pacote entregue usa um script
 // clássico para também funcionar com file://, sem servidor ou requisições.
-const files = ['data/content.js','data/questionnaire.js','data/tax.js','app.js'];
+const files = ['data/content.js','data/questionnaire.js','data/tax.js','data/itcmd.js','data/tax-engine.js','data/simulator-ui.js','app.js'];
 const chunks = [];
 for (const file of files) {
   const code = (await readFile(file, 'utf8'))

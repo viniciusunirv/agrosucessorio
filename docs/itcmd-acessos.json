@@ -1,0 +1,144 @@
+[
+  {
+    "uf": "planalto",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
+    "status": 200,
+    "bytes": 1332449,
+    "finalUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm"
+  },
+  {
+    "uf": "AC",
+    "url": "https://sefaz.ac.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "AL",
+    "url": "https://www.sefaz.al.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "AP",
+    "url": "https://www.sefaz.ap.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "AM",
+    "url": "https://www.sefaz.am.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "BA",
+    "url": "https://www.sefaz.ba.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "CE",
+    "url": "https://www.sefaz.ce.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "DF",
+    "url": "https://www.receita.fazenda.df.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "ES",
+    "url": "https://sefaz.es.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "GO",
+    "url": "https://goias.gov.br/economia/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "MA",
+    "url": "https://portal.sefaz.ma.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "MT",
+    "url": "https://www.sefaz.mt.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "MS",
+    "url": "https://www.sefaz.ms.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "MG",
+    "url": "https://www.fazenda.mg.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "PA",
+    "url": "https://www.sefa.pa.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "PB",
+    "url": "https://www.sefaz.pb.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "PR",
+    "url": "https://www.fazenda.pr.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "PE",
+    "url": "https://www.sefaz.pe.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "PI",
+    "url": "https://www.sefaz.pi.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "RJ",
+    "url": "https://portal.fazenda.rj.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "RN",
+    "url": "https://www.sefaz.rn.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "RS",
+    "url": "https://www.receita.fazenda.rs.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "RO",
+    "url": "https://www.sefin.ro.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "RR",
+    "url": "https://www.sefaz.rr.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "SC",
+    "url": "https://www.sef.sc.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "SP",
+    "url": "https://portal.fazenda.sp.gov.br/servicos/itcmd/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "SE",
+    "url": "https://www.sefaz.se.gov.br/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "uf": "TO",
+    "url": "https://www.to.gov.br/sefaz/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]
