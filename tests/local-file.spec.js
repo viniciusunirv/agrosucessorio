@@ -1,0 +1,20 @@
+import {test,expect} from '@playwright/test';
+test('pacote abre diretamente como arquivo e mantém links e questionário funcionais',async({page})=>{
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(new URL('../dist/index.html',import.meta.url).href);
+ await expect(page.getByRole('heading',{level:1})).toContainText('gerações');
+ await page.getByRole('link',{name:'Ver o catálogo'}).click();
+ await expect(page.locator('.option-card')).toHaveCount(7);
+ await page.getByLabel('Buscar no catálogo').fill('testamento');
+ await page.getByRole('link',{name:'Conhecer esta opção',exact:true}).click();
+ await expect(page.getByRole('heading',{level:1})).toHaveText('Testamento');
+ await page.getByRole('link',{name:'Quero conhecer os próximos passos'}).click();
+ await expect(page.locator('.document-item')).toHaveCount(4);
+ await page.getByRole('link',{name:'Questionário',exact:true}).click();
+ await page.getByRole('radio',{name:'Organizar a gestão e as decisões'}).check();
+ await page.locator('[type=submit]').click();
+ await expect(page.getByRole('group')).toContainText('Já ocorreu um falecimento');
+ await page.getByRole('button',{name:'Ver resultado com respostas atuais'}).click();
+ await expect(page.getByRole('heading',{level:1})).toContainText('Informações insuficientes');
+ expect(errors).toEqual([]);
+});

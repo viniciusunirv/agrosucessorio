@@ -6,7 +6,7 @@ Site educativo estático para explorar planejamento sucessório no agronegócio 
 
 ## Baixar pelo GitHub, sem instalar ferramentas
 
-No repositório, clique em **Code → Download ZIP**. Extraia o arquivo baixado. Dentro da pasta do projeto, localize **site-pronto.zip** e extraia também esse arquivo. Essa segunda pasta contém o site pronto para enviar ao Cloudflare Pages: `index.html`, os demais arquivos e as pastas `assets/` e `data/`. Não precisa instalar Node.js para usar esse pacote pronto. Consulte `docs/PUBLICACAO.md` para as etapas de publicação e mantenha os avisos de revisão pendente.
+No repositório, clique em **Code → Download ZIP**. Extraia o arquivo baixado. Dentro da pasta do projeto, localize **site-pronto.zip** e extraia também esse arquivo. Nessa segunda pasta, abra **index.html** com um duplo clique para testar o site; os links e o questionário funcionam sem servidor. Ela também contém o site pronto para enviar ao Cloudflare Pages: `index.html`, os demais arquivos e as pastas `assets/` e `data/`. Não precisa instalar Node.js para usar esse pacote pronto. Consulte `docs/PUBLICACAO.md` para as etapas de publicação e mantenha os avisos de revisão pendente.
 
 `site-pronto.zip` é uma cópia gerada; após alterar o código, regenere `dist/` e o pacote antes de enviá-lo novamente.
 
@@ -24,7 +24,7 @@ npm ci --cache /workspace/.npm-cache --ignore-scripts --no-audit --no-fund
 npm run dev
 ```
 
-O servidor usa a porta 5173. Em seu computador, acesse essa porta no navegador. Não abra `index.html` diretamente como arquivo: módulos precisam de servidor HTTP. Para encerrar, pressione Ctrl+C no terminal do servidor.
+O servidor usa a porta 5173. Em seu computador, acesse essa porta no navegador. O `index.html` da raiz é a versão de desenvolvimento e usa módulos, portanto precisa de servidor HTTP. O `index.html` de `dist/` e de `site-pronto.zip` funciona com duplo clique, sem servidor. Para encerrar, pressione Ctrl+C no terminal do servidor.
 
 Se baixar o ZIP em seu computador, extraia-o e abra um terminal na pasta `agrosucessorio`. Para só visualizar, execute `python3 -m http.server 5173` (macOS/Linux) ou `py -m http.server 5173` (Windows com Python instalado). No navegador, digite `http://localhost:5173`. Use `Ctrl+C` para parar. Para gerar `dist/` e executar testes, instale também Node.js e siga os comandos abaixo.
 
@@ -50,7 +50,7 @@ Os testes usam Chromium do ambiente em `/usr/bin/chromium`. Fora deste ambiente,
 | --- | --- |
 | `index.html` | Estrutura, navegação e aviso obrigatório em todas as páginas |
 | `styles.css` | Identidade visual, celular, teclado, impressão e redução de movimento |
-| `app.js` | Interface e navegação por hash, sem backend |
+| `app.js` | Interface e navegação por hash, sem backend; reunida em `dist/app.bundle.js` no build |
 | `data/content.js` | Catálogo, documentos, matriz de fontes, escopo e estado editorial |
 | `data/questionnaire.js` | Perguntas, ramificações, limpeza de respostas e regras explícitas |
 | `data/tax.js` | Temas tributários e bloqueio da calculadora |
@@ -59,7 +59,7 @@ Os testes usam Chromium do ambiente em `/usr/bin/chromium`. Fora deste ambiente,
 | `docs/` | Pesquisa pendente, regras, revisão e publicação |
 | `tests/` | Verificações funcionais e das regras |
 
-O projeto usa JavaScript nativo porque permite hospedagem estática simples, sem compilação de framework, backend ou custo operacional obrigatório. A construção apenas prepara a pasta pública. Rotas `#...` funcionam sem regras de redirecionamento do servidor.
+O projeto usa JavaScript nativo porque permite hospedagem estática simples, sem compilação de framework, backend ou custo operacional obrigatório. A construção prepara a pasta pública e reúne os módulos em `app.bundle.js`, um script clássico que permite abrir a versão entregue diretamente como arquivo no computador. Rotas `#...` funcionam sem regras de redirecionamento do servidor.
 
 As respostas ficam somente na memória da aba. Recarregar ou fechar apaga o progresso. O botão **Apagar minhas respostas** limpa respostas e marcações de documentos, mas não apaga PDFs criados pelo visitante. O provedor de hospedagem pode manter registros técnicos de acesso conforme sua política.
 
@@ -70,3 +70,7 @@ Leia [publicação](docs/PUBLICACAO.md), [pesquisa e matriz](docs/PESQUISA.md), 
 Não existe publicação realizada, push ao GitHub ou domínio configurado nesta entrega. Os arquivos foram criados no checkout local. A publicação depende da sua conta e da validação do conteúdo. Sem texto verificado, esta versão pode servir para revisão interna; as pendências devem continuar visíveis.
 
 Após cada atualização: revise fonte e contexto, execute os comandos acima, gere `dist/` novamente, confira as páginas alteradas e só então publique. Guarde uma versão anterior conhecida para reverter.
+
+### Verificação opcional da abertura local
+
+`npm run test:local` testa `dist/index.html` diretamente por `file://`. O navegador gerenciado deste ambiente bloqueia esse protocolo antes de executar o site; a abertura local não foi verificada em Windows. Os testes opcionais exigem navegador configurado em `playwright.local.config.js` que permita arquivos locais. `npm test` valida o pacote pelo servidor HTTP.

@@ -18,6 +18,10 @@ Referências oficiais a consultar:
 4. Conferir que `dist/` contém somente arquivos públicos. Não incluir documentos familiares, logs, arquivos de credenciais ou dados reais.
 5. Guardar uma cópia da versão publicada anterior e identificar a versão do conteúdo.
 
+## Testar antes do upload
+
+Extraia `site-pronto.zip` em uma pasta e abra seu `index.html` com duplo clique. A versão empacotada funciona sem servidor. Teste links e questionário antes de enviar. O arquivo `app.bundle.js` deve ficar junto de `index.html`; preserve também `styles.css`, `assets/` e `data/`.
+
 ## Caminho A — upload direto (sem enviar código ao GitHub)
 
 1. Criar ou acessar sua conta Cloudflare.

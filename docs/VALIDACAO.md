@@ -21,3 +21,7 @@ Capturas desktop e celular foram inspecionadas visualmente. Não é auditoria co
 Não executados ou concluídos: validação jurídica/contábil, consulta das fontes oficiais bloqueadas, cálculo tributário (nenhum implementado), teste em dispositivos físicos, Safari/Firefox, conferência das condições atuais da hospedagem, publicação e verificação dos cabeçalhos no provedor. O servidor local de Python não aplica `_headers`; sua aplicação depende da hospedagem.
 
 As instruções e permissões de rede foram salvas como rascunho do ambiente. Isso não publica o site nem comprova restauração do ambiente em nova tarefa.
+
+## Pacote para abrir com duplo clique
+
+O build passou a gerar `app.bundle.js`, script clássico sem imports, e `dist/index.html` o carrega com `defer`. Os 16 testes pelo servidor passaram com esse pacote. A tentativa adicional de dois testes de abertura por `file://` (desktop/celular) foi bloqueada pelo Chromium gerenciado: `ERR_BLOCKED_BY_ADMINISTRATOR`, antes da execução do site. Portanto, abertura direta em Windows não foi confirmada neste ambiente. Esses testes estão separados em `tests/local-file.spec.js`, executáveis por `npm run test:local` em máquina com navegador que permita arquivos locais. Não constituem testes aprovados nesta entrega.

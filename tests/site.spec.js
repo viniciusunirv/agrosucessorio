@@ -58,3 +58,4 @@ test('layout sem transbordamento e navegação por teclado',async({page},info)=>
  await page.goto('/');await page.keyboard.press('Tab');await expect(page.getByRole('link',{name:'Pular para o conteúdo'})).toBeFocused();await page.keyboard.press('Enter');await expect(page.locator('main')).toBeFocused();await expect(page.getByRole('heading',{level:1})).toContainText('gerações');
  await page.screenshot({path:`test-results/home-${info.project.name}.png`,fullPage:true});
 });
+
